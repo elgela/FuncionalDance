@@ -1,3 +1,33 @@
+body.clear-mode {
+    background-color: antiquewhite;
+}
+
+body.dark-mode {
+    background-color: darkslategrey;
+    opacity: 60%;
+
+    #titulo {
+        color: salmon;
+    }
+
+    main {
+        background-color: black;
+    }
+
+    footer {
+        background-color: rgba(100, 50, 0, 0.922);
+    }
+
+    #whatsapp {
+        color: chartreuse;
+    }
+
+    .subtitulo {
+        color: aliceblue;
+    }    
+
+}
+
 body {
     margin: 0;
 }

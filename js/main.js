@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.getElementById('mode-toggle');
     const body = document.body;

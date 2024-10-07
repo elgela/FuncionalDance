@@ -11,6 +11,17 @@
 
 body.clear-mode {
     background-color: antiquewhite;
+
+    .nav-list {
+        background-color: #1c1c1c;
+        color: antiquewhite;
+    }
+
+    .nav-list a {
+        text-decoration: none;
+        color: antiquewhite;
+        font-family: sans-serif;
+    }
 }
 
 body.dark-mode {
@@ -20,6 +31,18 @@ body.dark-mode {
     #titulo {
         color: salmon;
     }
+
+    .nav-list {
+        background-color: #706d6d;
+        /* color: black; */
+    }
+
+    .nav-list a {
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+    }
+
 
     main {
         background-color: black;
@@ -130,6 +153,14 @@ h2 {
 footer p {
     text-align: center;
     color: rgb(238, 128, 91);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 

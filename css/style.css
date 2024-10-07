@@ -12,6 +12,10 @@
 body.clear-mode {
     background-color: antiquewhite;
 
+    .titulo {
+        color: tomato;
+    }
+
     .nav-list {
         background-color: #1c1c1c;
         color: antiquewhite;
@@ -28,8 +32,8 @@ body.dark-mode {
     background-color: darkslategrey;
     opacity: 60%;
 
-    #titulo {
-        color: salmon;
+    .titulo {
+        color: rgb(252, 177, 168);
     }
 
     .nav-list {
@@ -102,7 +106,7 @@ footer {
 }
 
 .bx:hover {
-    filter: brightness(2.5);
+    filter: brightness(.5);
 }
 
 ul {
@@ -163,6 +167,52 @@ footer p {
     font-weight: bold;
 }
 
+.consulta {
+    display: flex;
+    flex-direction: row;
+}
+
+.consulta input {
+    font-size: small;
+}
+
+.consulta form {
+    flex-direction: row;
+    text-align: center;
+}
+
+.consulta input,
+textarea {
+    border-radius: 5px;
+}
+
+#mitextarea {
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+#formContacto {
+    display: grid;
+    text-align: center;
+    margin-left: 30%;
+}
+
+#envioConsulta {
+    margin-top: 10px;
+}
+
+#btn-captcha:hover,
+#envioConsulta:hover {
+    cursor: pointer;
+    background-color: burlywood;
+    font-weight: bold;
+}
+
+h1 {
+    display: grid;
+    color: rgb(106, 53, 39);
+    text-align: center;
+}
 
 /*///////////////////////////////////DESKTOP////////////////////////////////////////////////////*/
 
@@ -193,5 +243,19 @@ footer p {
 
     h2 {
         font-size: 50px;
+    }
+
+    .consulta {
+        display: flex;
+        flex-direction: row;
+        font-size: 50px;
+    }
+    .consulta input {
+        font-size: 35px;
+    }
+
+    #mitextarea {
+        columns: 30%;
+        font-size: large;
     }
 }
